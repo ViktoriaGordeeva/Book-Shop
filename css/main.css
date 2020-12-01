@@ -1,0 +1,79 @@
+.container-fluid {
+    background-color: rgba(225, 192, 7, 0.185);
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(220, 53, 69);
+    padding: 0.5em
+}
+
+.lang {
+    margin-top: 2em;
+    width: 15%;
+}
+.lang select {
+    color: rgb(220, 53, 69);
+    border: 1px solid rgb(220, 53, 69)
+}
+
+.book-edit {
+    margin-top: 2em
+}
+.book-edit form {
+    display: flex;
+    align-items: baseline;
+}
+.book-edit form .form-group {
+    margin-right: 0.5em
+}
+.book-edit .form-control {
+    border: 1px solid rgb(0, 123, 255)
+}
+
+.update-price form {
+    display: flex;
+    align-items: baseline;
+}
+.update-price form .form-group {
+    margin-right: 0.5em
+}
+.update-price .form-control {
+    border: 1px solid rgb(225, 192, 7)
+}
+
+table {
+    border: 0.1em solid lightgray;
+    margin: 2em auto;
+    text-align: center;
+    cursor: default
+}
+table button {
+    width: 5em;
+}
+table .title, .price {
+    cursor: pointer
+}
+
+.modal-dialog {
+    text-align: center;
+}
+.rate input{
+  text-align: center;
+}
+input[type="number"] {
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+} 
+
+
+.footer {
+    text-align: center;
+}
+
+
